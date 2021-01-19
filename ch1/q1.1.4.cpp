@@ -1,4 +1,4 @@
-//¹®Á¦ 4
+ï»¿//ë¬¸ì œ 4
 #include <iostream>
 using namespace std;
 
@@ -8,16 +8,16 @@ int main(void) {
 
 	while (1)
 	{
-		cout << "ÆÇ¸Å ±Ý¾×À» ¸¸¿ø ´ÜÀ§·Î ÀÔ·Â(-1 to end): ";
+		cout << "íŒë§¤ ê¸ˆì•¡ì„ ë§Œì› ë‹¨ìœ„ë¡œ ìž…ë ¥(-1 to end): ";
 		cin >> sell_price;
 
 		if (sell_price == -1)
 		{
-			cout << "ÇÁ·Î±×·¥À» Á¾·áÇÕ´Ï´Ù.";
+			cout << "í”„ë¡œê·¸ëž¨ì„ ì¢…ë£Œí•©ë‹ˆë‹¤.";
 			break;
 		}
 
-		cout << "ÀÌ¹ø ´Þ ±Þ¿©: " << base + sell_price * 0.12 << "¸¸¿ø" << endl;
+		cout << "ì´ë²ˆ ë‹¬ ê¸‰ì—¬: " << base + sell_price * 0.12 << "ë§Œì›" << endl;
 	}
 	return 0;
 }

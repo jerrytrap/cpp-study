@@ -1,11 +1,11 @@
-//¹®Á¦ 3
+ï»¿//ë¬¸ì œ 3
 #include <iostream>
 using namespace std;
 
 int main(void) {
 	int num;
 
-	cout << "¼ýÀÚ¸¦ ÀÔ·ÂÇÏ¼¼¿ä: ";
+	cout << "ìˆ«ìžë¥¼ ìž…ë ¥í•˜ì„¸ìš”: ";
 	cin >> num;
 
 	for (int i = 1; i < 10; i++)

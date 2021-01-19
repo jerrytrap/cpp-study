@@ -1,4 +1,4 @@
-//¹®Á¦ 2
+ï»¿//ë¬¸ì œ 2
 #include <iostream>
 using namespace std;
 
@@ -6,13 +6,13 @@ int main(void) {
 	char name[10];
 	char phoneNum[15];
 
-	cout << "ÀÌ¸§À» ÀÔ·ÂÇØÁÖ¼¼¿ä: ";
+	cout << "ì´ë¦„ì„ ìž…ë ¥í•´ì£¼ì„¸ìš”: ";
 	cin >> name;
-	cout << "ÀüÈ­¹øÈ£¸¦ ÀÔ·ÂÇØÁÖ¼¼¿ä: ";
+	cout << "ì „í™”ë²ˆí˜¸ë¥¼ ìž…ë ¥í•´ì£¼ì„¸ìš”: ";
 	cin >> phoneNum;
 
-	cout << "ÀÌ¸§: " << name << endl;
-	cout << "ÀüÈ­¹øÈ£: " << phoneNum;
+	cout << "ì´ë¦„: " << name << endl;
+	cout << "ì „í™”ë²ˆí˜¸: " << phoneNum;
 	
 	return 0;
 }

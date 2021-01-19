@@ -1,4 +1,4 @@
-//¹®Á¦ 1
+ï»¿//ë¬¸ì œ 1
 #include <iostream>
 using namespace std;
 
@@ -7,11 +7,11 @@ int main(void) {
 	int sum = 0;
 	for (int i = 0; i < 5; i++)
 	{
-		cout << i + 1 << "¹øÂ° Á¤¼ö ÀÔ·Â: " ;
+		cout << i + 1 << "ë²ˆì§¸ ì •ìˆ˜ ìž…ë ¥: " ;
 		cin >> num[i];
 		sum = sum + num[i];
 	}
-	cout << "ÇÕ°è: " << sum;
+	cout << "í•©ê³„: " << sum;
 
 	return 0;
 }
